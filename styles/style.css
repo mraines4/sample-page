@@ -1,8 +1,21 @@
 html {
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
-    background: url(https://images3.alphacoders.com/773/thumb-1920-773135.jpg) bottom center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.background {
+  background: url(https://images3.alphacoders.com/773/thumb-1920-773135.jpg) bottom center;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 h1 {
     font-size: 55px;
@@ -31,7 +44,6 @@ p, li {
     width: 100%;
     margin: 0 auto;
     background-color: #E87722;
-    border: 5px solid white;
     justify-content: center;
 }
 .empty-box {
